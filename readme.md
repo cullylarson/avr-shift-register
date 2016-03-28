@@ -42,5 +42,6 @@ _NOTE: The makefile uses `avr-gcc` and `avrdude` to compile and upload. It also 
 * [Super useful description of how a shift register works, with graphs!](http://www.allaboutcircuits.com/textbook/digital/chpt-12/serial-in-parallel-out-shift-register/)
 * [Instructable with a really good makefile and code](http://www.instructables.com/id/Honey-I-Shrunk-the-Arduino-Moving-from-Arduino-t/?ALLSTEPS)
 * [General info on ATTiny85 registers and ports](https://teslaui.wordpress.com/2013/03/26/attiny85-port-registers/)
+* [Notes on connecting and programming the ATTiny85](https://github.com/cullylarson/avr-programming)
 
 *TODO* Add resource link to github repo on programming the ATTiny85
