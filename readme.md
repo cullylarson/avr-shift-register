@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This program simply pushes 8-bits to a serial-in/parallel-out shift register. The output
+This program simply pushes 8 bits to a serial-in/parallel-out shift register. The output
 pins of the shift register are connected to LEDs.  The program then makes a little dance
 with the LEDs, but mostly I made this just to learn how to use a shift register.
 
