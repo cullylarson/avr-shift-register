@@ -13,7 +13,7 @@ setup:
 	mkdir -p -- build
 
 clean:
-	-rm build/*
+	rm build/*
 
 build/%.o : src/%.c
 	$(COMPILE) -c $< -o $@
@@ -26,7 +26,7 @@ main.elf: build/main.o
 
 main.hex: main.elf
 	avr-objcopy -j .text -j .data -O ihex build/main.elf build/main.hex
-	avr-size --format=avr --mcu=$(DEVICE) build/main.elf
+	avr-size --format=avr --mcu=$(GCC_DEVICE) build/main.elf
 
 disasm: main.elf
 	avr-objdump -d build/main.elf
