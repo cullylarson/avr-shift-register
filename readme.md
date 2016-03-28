@@ -1,6 +1,6 @@
 # AVR Shift Register
 
-> A super simple example of using an 8-bit shift register with an ATtiny85.
+> A super simple example of using an 8-bit shift register with an ATTiny85.
 
 ## Introduction
 
