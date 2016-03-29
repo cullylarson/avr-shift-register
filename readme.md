@@ -16,7 +16,7 @@ with the LEDs, but mostly I made this just to learn how to use a shift register.
 
 ## Install
 
-_NOTE: The makefile uses `avr-gcc` and `avrdude` to compile and upload. It also assumes you're using `usbtiny` programmer, like the Sparkfun Pocket AVR Programmer._
+_NOTE: The makefile uses `avr-gcc` and `avrdude` to compile and upload. It also assumes you're using a `usbtiny` programmer, like the Sparkfun Pocket AVR Programmer._
 
 1.  Connect your programmer
 
