@@ -30,7 +30,7 @@ _NOTE: The makefile uses `avr-gcc` and `avrdude` to compile and upload. It also 
 
 ![](images/avr-shift-register-schematic.jpg)
 
-## Wiring Notes
+### Wiring Notes
 
 * PIN 10 (SRCLR') on the shift register needs to go to VCC.
 * PIN 13 (OE') on the shift register needs to go to GND.
